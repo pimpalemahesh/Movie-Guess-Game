@@ -80,6 +80,3 @@ class MovieGame:
                 self.__win = False
             
             play_again = input("Do you want to play again?")[0].upper()
-
-game = MovieGame()
-game.play_multiple_time()
